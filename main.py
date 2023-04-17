@@ -1,3 +1,7 @@
+#predict on method signature: Method + Class + Parameter + Return type
+#result: method signature combinations.csv
+#input app: easytaxi
+
 import csv
 
 # This is a sample Python script.
