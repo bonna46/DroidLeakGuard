@@ -1,7 +1,3 @@
-#predict on method signature: Method + Class + Parameter + Return type
-#result: method signature combinations.csv
-#input app: easytaxi
-
 import csv
 
 # This is a sample Python script.
@@ -93,23 +89,17 @@ def generate_method_signature_combinations(sourceMethodList):
                         method_signature[row_count][3] = sentence4
                         row_count = row_count + 1
 
-
     for i in range(len(method_signature)):
         #print(method_signature[i][2])
-        try_other_models(method_signature[i][2])
-
+        try_other_models(method_signature[i][1])
 
     print('ok')
-
-
-
 
 
 
 def try_other_models(method_signature):
      with open('method signature combinations.csv', 'a', newline='', encoding='utf8') as outputFile:
         txtWriter = csv.writer(outputFile)
-
 
         txtWriter.writerow([method_signature])
 
