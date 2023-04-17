@@ -1,3 +1,7 @@
+#input: easytaxi app
+#method signature: Method + Class + Parameter + Return type + Method Description
+#output: method signature combinations.csv
+
 import csv
 
 # This is a sample Python script.
