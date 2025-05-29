@@ -1,4 +1,4 @@
-# Android-policy-leak-detection
+# DroidLeakGuard
 ### method signature combination is done on method signature :  # Method + Class + Parameter + Return type+ Method Description
 ### method signature combination_2 is done on method signature :  # Method + Class + Parameter + Return type
 
