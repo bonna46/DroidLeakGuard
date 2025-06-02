@@ -1,11 +1,4 @@
 # DroidLeakGuard
-### method signature combination is done on method signature :  # Method + Class + Parameter + Return type+ Method Description
-### method signature combination_2 is done on method signature :  # Method + Class + Parameter + Return type
-
-### package installed: sentence-transformer
-### run on pycharm
-
-# DroidLeakGuard
 DroidLeakGuard is a Python-based tool designed to assist Android developers and researchers in detecting and analyzing potential resource leaks in Android applications. By leveraging method signature analysis and natural language processing (NLP) techniques, it aims to identify patterns that suggest improper resource handling, such as unreleased SQLite cursors, unclosed InputStream objects, or forgotten WakeLock.release() calls.
 
 ## :mag_right: Key Features
@@ -39,6 +32,13 @@ pip install sentence-transformers
 Open main.py in your preferred Python environment (e.g., PyCharm) and execute the script to begin analysis.
 
 
+## :bulb: Additional Information
+
+### Detailed Method Signature Format:
+```
+Method + Class + Parameter + Return type + Method Description
+```
+
 ## 📂 Repository Contents
 ##### main.py: The main script orchestrating the analysis process.
 
@@ -46,4 +46,4 @@ Open main.py in your preferred Python environment (e.g., PyCharm) and execute th
 
 ##### method signature combinations_2.csv: Dataset focusing on method signatures without descriptions.
 
-##### android.zip: Compressed archive containing additional resources or datasets (contents should be reviewed for relevance).
+##### android.zip: Compressed archive containing additional resources.
